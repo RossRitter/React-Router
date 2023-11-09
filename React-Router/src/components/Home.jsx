@@ -1,10 +1,10 @@
 
-function Home(){
-<div className="home"></div>
-  return 
-
-    <h1>home</h1>
-  
+function Home() {
+  return (
+    <div className="home">
+      <h1>home</h1>
+    </div>
+  );
 }
 
-export default Home
+export default Home;

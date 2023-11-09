@@ -21,9 +21,9 @@ function App() {
       </div>
       <div id="main-section">
         <Routes>
-        <Route path="/Blue" element={Blue} />
-        <Route path="/Red" element={Red} />
-        <Route path="/Home" element={Home}/>
+        <Route path="/Blue" element={<Blue/>} />
+        <Route path="/Red" element={<Red/>} />
+        <Route path="/Home" element={<Home/>}/>
 
         </Routes>
       </div>

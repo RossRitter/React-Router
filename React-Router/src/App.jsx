@@ -8,7 +8,7 @@ import Red from './components/Red';
 import Home from './components/Home';
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
     <>
@@ -21,9 +21,9 @@ function App() {
       </div>
       <div id="main-section">
         <Routes>
-        <Route path="/Blue" element={<Blue/>} />
-        <Route path="/Red" element={<Red/>} />
-        <Route path="/Home" element={<Home/>}/>
+        <Route path="/Blue" element={<Blue/>} Route/> 
+        <Route path="/Red" element={<Red/>} Route/>
+        <Route path="/Home" element={<Home/>} Route/>
 
         </Routes>
       </div>
